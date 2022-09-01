@@ -1,0 +1,11 @@
+def random_function():
+    try:
+        a = float(input("Enter the first number: "))
+        b = float(input("Enter the second number: "))
+        print(a**2/b)
+    except ValueError:
+        print("Wrong input")
+    except ZeroDivisionError:
+        print("You can't divide by 0")
+
+random_function()
