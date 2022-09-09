@@ -1,0 +1,7 @@
+def abc():
+    x = 5
+    y = 10
+    str1= "random text"
+    print("Something")
+
+print(abc.__code__.co_nlocals)
